@@ -133,6 +133,7 @@ class DanhMucSanPham extends Controller
             'sanpham.id_DanhMuc')->where('danhmucsanpham.id_DanhMuc',$id_DanhMuc)->limit(1)->get();
 
           $sanpham = DB::table('sanpham')->orderby('id_SanPham','desc')->limit(5)->get();
+
         return view('page.DanhMucSP.show_danhmucSP')->with('danhmuc_SP',$danhmuc_SP)->with('danhmuc_id',$danhmuc_id)->with('danhmuc_ten',$danhmuc_ten) ->with('sanpham',$sanpham)->with('danhmuc_BaiViet',$danhmuc_BaiViet);
     }
 }

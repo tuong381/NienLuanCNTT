@@ -303,7 +303,7 @@
                                             <div class="about-content">
                                                 <p>Cảm ơn quý khách đã ghé cửa hàng của chúng tôi. Cửa hàng chúng tôi luôn cung cấp những sản phẩm tươi ngon, đảm bảo an toàn thực phẩm.</p>
                                             </div>
-                                           {{--  <div class="widget-social">
+                                          {{--   <div class="widget-social">
                                                 <ul class="d-flex justify-content-center">
                                                     <li class="social-facebook"><a class="gsf-link" title="Facebook"
                                                             href="#"><i class="fa fa-facebook"></i></a></li>
